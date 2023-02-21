@@ -1,8 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "@next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
+import styled from "styled-components";
 
 export default function Home() {
   return (
@@ -15,7 +12,7 @@ export default function Home() {
       </Head>
       <main
         style={{ backgroundImage: 'url("/background.jpeg")' }}
-        className="h-full w-full fixed text-white bg-fixed bg-cover [background-position-x:200px] [background-position-y:35%]"
+        className="h-full w-full fixed text-white bg-fixed bg-cover [background-position-x:100px] sm:[background-position-x:200px] sm:[background-position-y:35%]"
       >
         {/* Background image and gradient */}
         <div
@@ -29,29 +26,31 @@ export default function Home() {
         </div>
 
         {/* Content */}
-        <div className="fixed top-0 left-0 flex flex-col justify-center items-left h-full w-1/2 ml-[10%] space-y-20">
+        <div className="fixed top-0 left-0 flex flex-col justify-center items-left h-full w-full md:w-1/2 mx-[10%] space-y-20">
           <div className="block text-center w-fit">
-            <h1 className="text:6xl md:text-9xl font-thin">
+            <h1 className="text-8xl md:text-9xl font-thin">
               Luis<span className="font-semibold">Terra</span>
             </h1>
-            <p className="text-3xl font-light">cantor • compositor</p>
+            <p className="text-2xl md:text-3xl font-light">
+              cantor • compositor
+            </p>
           </div>
 
           {/* Menu */}
-          <div className="flex flex-col h-[20rem] text-2xl">
-            <div className="flex-1">
+          <div className="flex flex-col h-[15rem] md:h-[20rem] text-2xl align-center space-y-0">
+            <div className="flex-1 text-lg md:text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-2 hover:text-gray-300">
               <a href="/about">sobre</a>
             </div>
-            <div className="flex-1">
+            <div className="flex-1 text-lg md:text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-2 hover:text-gray-300">
               <a href="/music">portfólio</a>
             </div>
-            <div className="flex-1">
+            <div className="flex-1 text-lg md:text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-2 hover:text-gray-300">
               <a href="/music">poesias</a>
             </div>
-            <div className="flex-1">
+            <div className="flex-1 text-lg md:text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-2 hover:text-gray-300">
               <a href="/music">letras</a>
             </div>
-            <div className="flex-1">
+            <div className="flex-1 text-lg md:text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-2 hover:text-gray-300">
               <a href="/contact">contato</a>
             </div>
           </div>
