@@ -35,7 +35,10 @@ export default function Home() {
           {" "}
         </div>
         {/* Background overlay for mobile */}
-        <div className="block sm:hidden w-full h-full fixed bg-black/50"></div>
+        <div
+          className="block sm:hidden w-full h-full fixed bg-black/40"
+          style={{ boxShadow: "0 0 300px black inset" }}
+        ></div>
 
         {/* Content */}
         <div className="fixed top-0 left-0 flex flex-col justify-around py-14 sm:justify-center mt-0 items-left h-full w-full md:w-1/2 sm:mx-[10%] space-y-16">
