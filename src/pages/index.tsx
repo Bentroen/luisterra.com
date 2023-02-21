@@ -60,19 +60,19 @@ export default function Home() {
           {/* Menu */}
           <div className="flex flex-col h-[20rem] text-2xl font-light align-center space-y-6 drop-shadow-lg ml-14 sm:ml-0">
             <div className="flex-1 text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-2 hover:text-gray-300">
-              <a href="/about">sobre</a>
+              <a href="#">sobre</a>
             </div>
             <div className="flex-1 text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-2 hover:text-gray-300">
-              <a href="/music">portfólio</a>
+              <a href="#">portfólio</a>
             </div>
             <div className="flex-1 text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-2 hover:text-gray-300">
-              <a href="/music">poesias</a>
-            </div>
-            <div className="flex-1  text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-2 hover:text-gray-300">
-              <a href="/music">letras</a>
+              <a href="#">poesias</a>
             </div>
             <div className="flex-1 text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-2 hover:text-gray-300">
-              <a href="/contact">contato</a>
+              <a href="#">letras</a>
+            </div>
+            <div className="flex-1 text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-2 hover:text-gray-300">
+              <a href="#">contato</a>
             </div>
           </div>
 
