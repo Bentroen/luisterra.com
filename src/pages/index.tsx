@@ -21,14 +21,14 @@ export default function Home() {
       </Head>
       <main
         style={{ backgroundImage: 'url("/background2.jpeg")' }}
-        className="h-full w-full fixed text-white bg-fixed bg-cover sm:[background-position-x:150px] lg:[background-position-x:330px] lg:[background-position-y:15%]"
+        className="h-full w-full fixed text-white bg-fixed bg-cover sm:[background-position-x:200px] lg:[background-position-x:300px] lg:[background-position-y:15%]"
       >
         {/* Background image and gradient */}
         <div
-          className="hidden sm:block w-2/3 h-full fixed bg-gradient-to-r from-black/70 to-transparent backdrop-filter backdrop-blur-xl"
+          className="hidden sm:block w-2/3 h-full fixed bg-gradient-to-r from-[#110A09]/90 to-[#9E5C4D]/40 backdrop-filter backdrop-blur-2xl"
           style={{
             WebkitMaskImage:
-              "linear-gradient(to right, black, black 50%, transparent)",
+              "linear-gradient(to right, black, black 45%, rgba(0,0,0,0.9) 55%, transparent 90%)",
           }}
         >
           {" "}
