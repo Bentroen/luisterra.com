@@ -37,37 +37,37 @@ export default function Home() {
         <div className="block sm:hidden w-full h-full fixed bg-black/50"></div>
 
         {/* Content */}
-        <div className="fixed top-0 left-0 flex flex-col justify-around py-14 sm:justify-center mt-0 items-left h-full w-full md:w-1/2 sm:mx-[10%] space-y-20">
+        <div className="fixed top-0 left-0 flex flex-col justify-around py-14 sm:justify-center mt-0 items-left h-full w-full md:w-1/2 sm:mx-[10%] space-y-16">
           <div className="block text-center w-screen sm:w-fit drop-shadow-xl">
-            <h1 className="text-8xl md:text-9xl font-thin">
+            <h1 className="text-8xl lg:text-9xl font-thin">
               Luis<span className="font-semibold">Terra</span>
             </h1>
-            <p className="text-2xl md:text-3xl font-light">
+            <p className="text-2xl lg:text-3xl font-light">
               cantor • compositor
             </p>
           </div>
 
           {/* Menu */}
-          <div className="flex flex-col h-[20rem] text-2xl font-light align-center space-y-0 drop-shadow-lg ml-14 sm:ml-0">
+          <div className="flex flex-col h-[20rem] text-2xl font-light align-center space-y-6 drop-shadow-lg ml-14 sm:ml-0">
             <div className="flex-1 text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-2 hover:text-gray-300">
               <a href="/about">sobre</a>
             </div>
-            <div className="flex-1 md:text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-2 hover:text-gray-300">
+            <div className="flex-1 text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-2 hover:text-gray-300">
               <a href="/music">portfólio</a>
             </div>
-            <div className="flex-1 md:text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-2 hover:text-gray-300">
+            <div className="flex-1 text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-2 hover:text-gray-300">
               <a href="/music">poesias</a>
             </div>
-            <div className="flex-1  md:text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-2 hover:text-gray-300">
+            <div className="flex-1  text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-2 hover:text-gray-300">
               <a href="/music">letras</a>
             </div>
-            <div className="flex-1 md:text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-2 hover:text-gray-300">
+            <div className="flex-1 text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-2 hover:text-gray-300">
               <a href="/contact">contato</a>
             </div>
           </div>
 
           {/* Social icons */}
-          <div className="flex flex-row justify-left space-x-4">
+          <div className="flex flex-row justify-center sm:justify-start space-x-4">
             <a href="https://www.instagram.com/luisterrax">
               <FontAwesomeIcon icon={faInstagram} size="2x" />
             </a>
