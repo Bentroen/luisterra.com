@@ -9,6 +9,7 @@ import {
   faSpotify,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
+import { faMusic } from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
   return (
@@ -42,9 +43,15 @@ export default function Home() {
             <h1 className="text-8xl lg:text-9xl font-thin">
               Luis<span className="font-semibold">Terra</span>
             </h1>
-            <p className="text-2xl lg:text-3xl font-light">
-              cantor • compositor
-            </p>
+
+            <div className="">
+              <p className="text-2xl lg:text-3xl font-light">
+                <span className="text-lg lg:text-xl mr-2">
+                  <FontAwesomeIcon className="" icon={faMusic} />
+                </span>{" "}
+                cantor • compositor
+              </p>
+            </div>
           </div>
 
           {/* Menu */}
