@@ -1,5 +1,14 @@
 import Head from "next/head";
 import styled from "styled-components";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faAmazon,
+  faApple,
+  faDeezer,
+  faInstagram,
+  faSpotify,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
 
 export default function Home() {
   return (
@@ -28,7 +37,7 @@ export default function Home() {
         <div className="block sm:hidden w-full h-full fixed bg-black/50"></div>
 
         {/* Content */}
-        <div className="fixed top-0 left-0 flex flex-col justify-around sm:justify-center mt-0 items-left h-full w-full md:w-1/2 sm:mx-[10%] space-y-20">
+        <div className="fixed top-0 left-0 flex flex-col justify-around py-14 sm:justify-center mt-0 items-left h-full w-full md:w-1/2 sm:mx-[10%] space-y-20">
           <div className="block text-center w-screen sm:w-fit drop-shadow-xl">
             <h1 className="text-8xl md:text-9xl font-thin">
               Luis<span className="font-semibold">Terra</span>
@@ -55,6 +64,28 @@ export default function Home() {
             <div className="flex-1 md:text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-2 hover:text-gray-300">
               <a href="/contact">contato</a>
             </div>
+          </div>
+
+          {/* Social icons */}
+          <div className="flex flex-row justify-left space-x-4">
+            <a href="https://www.instagram.com/luisterrax">
+              <FontAwesomeIcon icon={faInstagram} size="2x" />
+            </a>
+            <a href="https://www.youtube.com/@luisterrax">
+              <FontAwesomeIcon icon={faYoutube} size="2x" />
+            </a>
+            <a href="https://open.spotify.com/artist/1sa9p7e4e2K7IhPklddoV6">
+              <FontAwesomeIcon icon={faSpotify} size="2x" />
+            </a>
+            <a href="https://deezer.page.link/bapfLw7DcaxruuhH9">
+              <FontAwesomeIcon icon={faDeezer} size="2x" />
+            </a>
+            <a href="https://music.apple.com/us/artist/luis-terra/1473862864">
+              <FontAwesomeIcon icon={faApple} size="2x" />
+            </a>
+            <a href="https://music.amazon.com.br/artists/B07VGCGWJ1/luis-terra">
+              <FontAwesomeIcon icon={faAmazon} size="2x" />
+            </a>
           </div>
         </div>
       </main>
