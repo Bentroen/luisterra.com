@@ -12,22 +12,24 @@ export default function Home() {
       </Head>
       <main
         style={{ backgroundImage: 'url("/background2.jpeg")' }}
-        className="h-full w-full fixed text-white bg-fixed bg-cover [background-position-x:100px] sm:[background-position-x:150px] lg:[background-position-x:330px] lg:[background-position-y:15%]"
+        className="h-full w-full fixed text-white bg-fixed bg-cover sm:[background-position-x:150px] lg:[background-position-x:330px] lg:[background-position-y:15%]"
       >
         {/* Background image and gradient */}
         <div
-          className="w-2/3 h-full fixed bg-gradient-to-r from-black/70 to-transparent backdrop-filter backdrop-blur-2xl"
+          className="hidden sm:block w-2/3 h-full fixed bg-gradient-to-r from-black/70 to-transparent backdrop-filter backdrop-blur-xl"
           style={{
             WebkitMaskImage:
-              "linear-gradient(to right, black, black 40%, transparent)",
+              "linear-gradient(to right, black, black 50%, transparent)",
           }}
         >
           {" "}
         </div>
+        {/* Background overlay for mobile */}
+        <div className="block sm:hidden w-full h-full fixed bg-black/50"></div>
 
         {/* Content */}
-        <div className="fixed top-0 left-0 flex flex-col justify-center items-left h-full w-full md:w-1/2 mx-[10%] space-y-20">
-          <div className="block text-center w-fit drop-shadow-xl">
+        <div className="fixed top-0 left-0 flex flex-col justify-around sm:justify-center mt-0 items-left h-full w-full md:w-1/2 sm:mx-[10%] space-y-20">
+          <div className="block text-center w-screen sm:w-fit drop-shadow-xl">
             <h1 className="text-8xl md:text-9xl font-thin">
               Luis<span className="font-semibold">Terra</span>
             </h1>
@@ -37,7 +39,7 @@ export default function Home() {
           </div>
 
           {/* Menu */}
-          <div className="flex flex-col h-[20rem] text-2xl font-light align-center space-y-0 drop-shadow-lg">
+          <div className="flex flex-col h-[20rem] text-2xl font-light align-center space-y-0 drop-shadow-lg ml-14 sm:ml-0">
             <div className="flex-1 text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-2 hover:text-gray-300">
               <a href="/about">sobre</a>
             </div>
