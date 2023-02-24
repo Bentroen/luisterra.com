@@ -69,7 +69,7 @@ export default function Home() {
             </div>
             <div className="table flex-1 text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-2 hover:text-gray-300">
               <div className="table-cell align-middle">
-                <Link href="#">portfólio</Link>
+                <Link href="Portfólio - Luis Terra.pdf">portfólio</Link>
               </div>
             </div>
             <div className="table flex-1 text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-2 hover:text-gray-300">
