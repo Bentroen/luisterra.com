@@ -62,21 +62,21 @@ export default function Home() {
           </div>
 
           {/* Menu */}
-          <div className="flex flex-col h-full max-h-[20rem] text-2xl font-light align-center drop-shadow-lg ml-14 sm:ml-0">
-            <div className="flex-1 text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-2 hover:text-gray-300">
-              <Link href="/sobre">sobre</Link>
+          <div className="flex flex-col h-full max-h-[16rem] text-2xl font-light align-center drop-shadow-lg ml-14 sm:ml-0">
+            <div className="table flex-1 text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-2 hover:text-gray-300">
+              <div className="table-cell align-middle">
+                <Link href="/sobre">sobre</Link>
+              </div>
             </div>
-            <div className="flex-1 text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-2 hover:text-gray-300">
-              <a href="#">portfólio</a>
+            <div className="table flex-1 text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-2 hover:text-gray-300">
+              <div className="table-cell align-middle">
+                <Link href="#">portfólio</Link>
+              </div>
             </div>
-            <div className="flex-1 text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-2 hover:text-gray-300">
-              <a href="#">poesias</a>
-            </div>
-            <div className="flex-1 text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-2 hover:text-gray-300">
-              <a href="#">letras</a>
-            </div>
-            <div className="flex-1 text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-2 hover:text-gray-300">
-              <a href="#">contato</a>
+            <div className="table flex-1 text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-2 hover:text-gray-300">
+              <div className="table-cell align-middle">
+                <Link href="#">contato</Link>
+              </div>
             </div>
           </div>
 
