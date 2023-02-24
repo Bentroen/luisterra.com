@@ -2,7 +2,6 @@ import Head from "next/head";
 import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faAmazon,
   faApple,
   faDeezer,
   faInstagram,
@@ -11,6 +10,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faMusic } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
+import AmazonMusicIcon from "@/components/AmazonMusicIcon";
 
 export default function Home() {
   return (
@@ -98,7 +98,7 @@ export default function Home() {
               <FontAwesomeIcon icon={faApple} size="2x" />
             </a>
             <a href="https://music.amazon.com.br/artists/B07VGCGWJ1/luis-terra">
-              <FontAwesomeIcon icon={faAmazon} size="2x" />
+              <AmazonMusicIcon fill="white" />
             </a>
           </div>
         </div>
