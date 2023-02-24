@@ -24,7 +24,7 @@ export default function Home() {
               alt="Luis Terra"
             />
           </div>
-          <div className="col-span-12 md:col-span-7 flex flex-col justify-center space-y-12 items-left p-24">
+          <div className="col-span-12 md:col-span-7 flex flex-col justify-center space-y-12 items-left p-10 sm:p-24">
             <div className="flex justify-between items-center">
               <h1 className="text-5xl font-semibold">Sobre</h1>
               <FontAwesomeIcon className="text-3xl" icon={faMusic} />
