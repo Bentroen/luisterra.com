@@ -7,11 +7,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Luis Terra :: Home</title>
-        <meta
-          name="description"
-          content="Cantor, compositor e instrumentista com 10 anos de carreira"
-        />
+        <title>Luis Terra :: Sobre</title>
+        <meta name="description" content="Sobre o artista" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
