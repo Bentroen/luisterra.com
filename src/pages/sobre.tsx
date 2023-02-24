@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { faMusic } from "@fortawesome/free-solid-svg-icons";
+import { faMusic, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 
@@ -52,8 +52,13 @@ export default function Home() {
               Guedes; e <span className="italic">“Menino Luz”</span>, mostrando
               suas vertentes de compositor, intérprete e produtor musical.
             </p>
-            <button className="border border-black rounded-full w-fit pb-1 pt-2 px-2.5">
-              <Link href="/">🡠</Link>
+            <button className="border border-black rounded-full w-10 h-10 pt-[5px]">
+              <Link
+                href="/
+              "
+              >
+                <FontAwesomeIcon icon={faArrowLeft} />
+              </Link>
             </button>
           </div>
         </div>
