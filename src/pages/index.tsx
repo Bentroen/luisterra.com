@@ -10,6 +10,7 @@ import {
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import { faMusic } from "@fortawesome/free-solid-svg-icons";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -63,7 +64,7 @@ export default function Home() {
           {/* Menu */}
           <div className="flex flex-col h-full max-h-[20rem] text-2xl font-light align-center drop-shadow-lg ml-14 sm:ml-0">
             <div className="flex-1 text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-2 hover:text-gray-300">
-              <a href="#">sobre</a>
+              <Link href="/sobre">sobre</Link>
             </div>
             <div className="flex-1 text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-2 hover:text-gray-300">
               <a href="#">portfólio</a>
