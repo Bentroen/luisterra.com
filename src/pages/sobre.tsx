@@ -49,7 +49,7 @@ export default function Home() {
               Guedes; e <span className="italic">“Menino Luz”</span>, mostrando
               suas vertentes de compositor, intérprete e produtor musical.
             </p>
-            <button className="border border-black rounded-full w-10 h-10 pt-[5px]">
+            <button className="border border-black rounded-full w-9 h-9 pt-[5px]">
               <Link
                 href="/
               "
