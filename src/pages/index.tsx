@@ -47,13 +47,13 @@ export default function Home() {
         {/* Content */}
         <div className="fixed top-0 left-0 flex flex-col justify-around py-14 sm:justify-center mt-0 items-left h-full w-full md:w-1/2 sm:mx-[10%] space-y-16">
           <div className="block text-center w-screen sm:w-fit drop-shadow-xl">
-            <h1 className="text-8xl lg:text-9xl font-thin">
+            <h1 className="text-7xl sm:text-8xl lg:text-9xl font-thin">
               Luis<span className="font-semibold">Terra</span>
             </h1>
 
             <div className="">
-              <p className="text-2xl lg:text-3xl font-light">
-                <span className="text-lg lg:text-xl mr-2">
+              <p className="text-xl sm:text-2xl lg:text-3xl font-light">
+                <span className="text-sm sm:text-lg lg:text-xl mr-2">
                   <FontAwesomeIcon className="" icon={faMusic} />
                 </span>{" "}
                 cantor • compositor
