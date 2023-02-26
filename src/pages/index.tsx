@@ -24,7 +24,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main
-        style={{ backgroundImage: 'url("/background2.jpeg")' }}
+        style={{ backgroundImage: 'url("/background2.jpg")' }}
         className="h-full w-full fixed text-white bg-fixed bg-cover sm:[background-position-x:200px] lg:[background-position-x:300px] lg:[background-position-y:15%]"
       >
         {/* Background image and gradient */}
