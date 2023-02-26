@@ -37,7 +37,9 @@ export default function Home() {
                     </td>
                     <td>
                       <span className="font-semibold">E-mail: </span>
-                      contatolterra@gmail.com
+                      <a href="mailto:contatolterra@gmail.com">
+                        contatolterra@gmail.com
+                      </a>
                     </td>
                   </tr>
                   <tr>
@@ -49,7 +51,7 @@ export default function Home() {
                     </td>
                     <td>
                       <span className="font-semibold">WhatsApp: </span>
-                      (22) 99288-5067
+                      <a href="https://wa.me/5522992885067">(22) 99288-5067</a>
                     </td>
                   </tr>
                   <tr>
@@ -61,7 +63,7 @@ export default function Home() {
                     </td>
                     <td>
                       <span className="font-semibold">Instagram: </span>
-                      @luisterrax
+                      <a href="https://ig.me/m/luisterrax">@luisterrax</a>
                     </td>
                   </tr>
                 </tbody>
