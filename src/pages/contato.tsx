@@ -1,7 +1,9 @@
 import Head from "next/head";
 import { faMusic, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
+import { faInstagram, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 export default function Home() {
   return (
@@ -27,18 +29,43 @@ export default function Home() {
               <FontAwesomeIcon className="text-3xl" icon={faMusic} />
             </div>
             <div className="text-xl font-light">
-              <p>
-                <span className="font-semibold">E-mail: </span>
-                contatolterra@gmail.com
-              </p>
-              <p>
-                <span className="font-semibold">Telefone: </span>
-                (22) 99288-5067
-              </p>
-              <p>
-                <span className="font-semibold">Instagram: </span>
-                @luisterrax
-              </p>
+              <table className="table-auto">
+                <tbody>
+                  <tr>
+                    <td className="px-2">
+                      <FontAwesomeIcon icon={faEnvelope} />
+                    </td>
+                    <td>
+                      <span className="font-semibold">E-mail: </span>
+                      contatolterra@gmail.com
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-2">
+                      <FontAwesomeIcon
+                        className="text-[22px]"
+                        icon={faWhatsapp}
+                      />
+                    </td>
+                    <td>
+                      <span className="font-semibold">WhatsApp: </span>
+                      (22) 99288-5067
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-2">
+                      <FontAwesomeIcon
+                        className="text-[22px]"
+                        icon={faInstagram}
+                      />
+                    </td>
+                    <td>
+                      <span className="font-semibold">Instagram: </span>
+                      @luisterrax
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
             <div className="h-48"></div>
             <button className="border border-black rounded-full w-9 h-9 pt-[5px]">
