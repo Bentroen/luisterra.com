@@ -19,7 +19,7 @@ export default function Home() {
           <div className="col-span-12 w-full h-[24rem] md:h-full md:col-span-5 flex">
             <img
               className="object-cover w-full h-full [object-position:0_20%] md:object-center"
-              src="/background2.jpg"
+              src="/background1.jpg"
               alt="Luis Terra"
             />
           </div>
