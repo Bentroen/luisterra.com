@@ -64,6 +64,16 @@ export default function Home() {
           <div className="flex flex-col h-full max-h-[16rem] text-2xl font-light align-center drop-shadow-lg ml-14 sm:ml-0">
             <div className="table flex-1 text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-2 hover:text-gray-300">
               <div className="table-cell align-middle">
+                <Link href="https://www.sympla.com.br/evento/luis-terra-terra-10-anos/1953273">
+                  <span className="text-orange-400 hover:text-orange-300 transition-all ease-in-out duration-[250ms]">
+                    🎟️ Terra 10 anos :: Ingressos à venda! 🎟️
+                  </span>
+                </Link>
+              </div>
+            </div>
+            <div className="h-4"></div>
+            <div className="table flex-1 text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-2 hover:text-gray-300">
+              <div className="table-cell align-middle">
                 <Link href="/sobre">sobre</Link>
               </div>
             </div>
