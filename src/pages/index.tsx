@@ -63,17 +63,17 @@ export default function Home() {
           {/* Menu */}
           <div className="flex flex-col h-full max-h-[16rem] text-2xl font-light align-center drop-shadow-lg ml-14 sm:ml-0">
             <div className="h-4"></div>
-            <div className="table flex-1 text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-2 hover:text-gray-300">
+            <div className="table flex-1 text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-1 hover:text-orange-300">
               <div className="table-cell align-middle">
                 <Link href="/sobre">sobre</Link>
               </div>
             </div>
-            <div className="table flex-1 text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-2 hover:text-gray-300">
+            <div className="table flex-1 text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-1 hover:text-orange-300">
               <div className="table-cell align-middle">
                 <Link href="Portfólio - Luis Terra.pdf">portfólio</Link>
               </div>
             </div>
-            <div className="table flex-1 text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-2 hover:text-gray-300">
+            <div className="table flex-1 text-2xl w-fit m-0 p-0 transition-all ease-in-out duration-[250ms] hover:translate-x-1 hover:text-orange-300">
               <div className="table-cell align-middle">
                 <Link href="/contato">contato</Link>
               </div>
@@ -83,22 +83,45 @@ export default function Home() {
           {/* Social icons */}
           <div className="flex flex-row justify-center sm:justify-start space-x-4">
             <a href="https://www.instagram.com/luisterrax">
-              <FontAwesomeIcon icon={faInstagram} size="2x" />
+              <FontAwesomeIcon
+                icon={faInstagram}
+                size="2x"
+                className="hover:scale-110 hover:text-orange-300 transition-all ease-in-out duration-[250ms]"
+              />
             </a>
             <a href="https://www.youtube.com/@luisterrax">
-              <FontAwesomeIcon icon={faYoutube} size="2x" />
+              <FontAwesomeIcon
+                icon={faYoutube}
+                size="2x"
+                className="hover:scale-110 hover:text-orange-300 transition-all ease-in-out duration-[250ms]"
+              />
             </a>
             <a href="https://open.spotify.com/artist/1sa9p7e4e2K7IhPklddoV6">
-              <FontAwesomeIcon icon={faSpotify} size="2x" />
+              <FontAwesomeIcon
+                icon={faSpotify}
+                size="2x"
+                className="hover:scale-110 hover:text-orange-300 transition-all ease-in-out duration-[250ms]"
+              />
             </a>
             <a href="https://deezer.page.link/bapfLw7DcaxruuhH9">
-              <FontAwesomeIcon icon={faDeezer} size="2x" />
+              <FontAwesomeIcon
+                icon={faDeezer}
+                size="2x"
+                className="hover:scale-110 hover:text-orange-300 transition-all ease-in-out duration-[250ms]"
+              />
             </a>
             <a href="https://music.apple.com/us/artist/luis-terra/1473862864">
-              <FontAwesomeIcon icon={faApple} size="2x" />
+              <FontAwesomeIcon
+                icon={faApple}
+                size="2x"
+                className="hover:scale-110 hover:text-orange-300 transition-all ease-in-out duration-[250ms]"
+              />
             </a>
             <a href="https://music.amazon.com.br/artists/B07VGCGWJ1/luis-terra">
-              <AmazonMusicIcon fill="white" />
+              <AmazonMusicIcon
+                fill="white"
+                className="hover:scale-110 hover:text-orange-300 transition-all ease-in-out duration-[250ms]"
+              />
             </a>
           </div>
         </div>
