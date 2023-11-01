@@ -66,7 +66,7 @@ export default function Home() {
               <div className="table-cell align-middle">
                 <Link href="https://loja.metanoiaeditora.com/extravios">
                   <span className="text-sm sm:text-2xl text-yellow-400 hover:text-yellow-300 transition-all ease-in-out duration-[250ms]">
-                    📙 Adquira o livro "Extravios" 📙
+                    📙 Adquira o livro &quot;Extravios&quot; 📙
                   </span>
                 </Link>
               </div>
